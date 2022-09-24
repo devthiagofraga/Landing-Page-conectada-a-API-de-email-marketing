@@ -1,0 +1,225 @@
+:root {
+    --primeiraCor: #2F2325;
+    --segundaCor: #fbff00;
+    --terceiraCor: #000;
+    --quartaCor: #fff;
+}
+
+
+
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: var(--primeiraCor);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: var(--quartaCor);
+}
+
+.logo span {
+    color: var(--segundaCor);
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.areaa-title h3 {
+    color: var(--quartaCor);
+    font-weight: normal;
+}
+
+.areaa-title h1 {
+    color: var(--quartaCor);
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -20px
+}
+
+.areaa-title a {
+    display: inline-block;
+    background-color: var(--segundaCor);
+    padding: 15px 60px;
+    color: var(--primeiraCor);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.areaa-title a:hover {
+    background-color: var(--quartaCor);
+}
+
+.image01 img {
+    width: 470px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/*Area Cards*/
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-cards h2 {
+    color: var(--quartaCor);
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: var(--segundaCor);
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--primeiraCor);
+    font-size: 16px;
+}
+
+.cards :hover {
+    background-color: var(--quartaCor);
+    transition: 0, 3s all;
+    color: var(--primeiraCor);
+}
+
+.card img {
+    width: 65px;
+}
+
+/*SECTION-3*/
+
+.section-3 {
+    background: #fbff00;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+.image2 img {
+    width: 280px;
+    height: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+.areaa-title-2 h1 {
+    font-size: 35px;
+    color: var(--primeiraCor);
+    font-weight: normal;
+}
+
+.areaa-title-2 h3 {
+    color: var(--primeiraCor);
+    font-size: 20;
+    margin-top: -25px;
+}
+
+.areaa-title-2 a {
+    display: inline-block;
+    background: var(--primeiraCor);
+    padding: 20px 80px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--quartaCor);
+}
+
+.areaa-title-2 a:hover {
+    background-color: var(--quartaCor);
+    color: var(--primeiraCor);
+}
+
+/*Area Form*/
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-form h2 {
+    color: var(--quartaCor);
+    text-align: center;
+}
+
+.forulario form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.forulario input {
+    padding-left: 20px;
+    font-family: 'Oswald';
+    margin: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    background-color: #fbff00;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--terceiraCor);
+    height: 55px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--quartaCor);
+    color: var(--primeiraCor);
+}
+
+footer {
+    text-align: center;
+    color: var(--quartaCor);
+}
+
+
+.social h5 {
+    color: var(--quartaCor);
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
